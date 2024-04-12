@@ -1,8 +1,8 @@
-.pacifico-regular {
+/* .pacifico-regular {
     font-family: "Pacifico", cursive;
     font-weight: 400;
     font-style: normal;
-}
+} */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -13,6 +13,7 @@ header {
     background-color: #FF006E; 
     padding: 20px;
     text-align: center;
+    height: 250px;
 }
 .container {
     max-width: 800px;
@@ -59,15 +60,18 @@ nav a {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+header img {
+    height: 100%;
+}
 .webpage-title p {
-    font-size: 20px;
+    font-size: 40px;
     color: #333;
     margin: 0;
     font-weight: bold;
 }
-#sipsation {
+/* #sipsation {
     font-size: 60px;
-}
+} */
 @media (max-width: 768px) {
     .container {
         padding: 0 10px;
@@ -84,10 +88,13 @@ nav a {
     nav a {
         font-size: 16px;
     }
+    header {
+        height: 200px;
+    }
     .webpage-title p {
         font-size: 16px;
     }
-    #sipsation {
+    /* #sipsation {
     font-size: 45px;
-    }
+    } */
 }
